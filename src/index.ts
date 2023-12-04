@@ -378,6 +378,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  setInterval(function() {
+    term.clear();
+  }, 5000);
+
   const downloadOutput =
     document.getElementById('download') as HTMLSelectElement;
   downloadOutput.addEventListener('click', downloadTerminalContents);
