@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   setInterval(function() {
     term.clear();
-  }, 5000);
+  }, 1000);
 
   const downloadOutput =
     document.getElementById('download') as HTMLSelectElement;
